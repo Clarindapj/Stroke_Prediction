@@ -11,7 +11,7 @@ Worldwide, stroke ranks among the top causes of death and handicap. Early identi
 
 - False Positives (FP): Wrongly forecasting a stroke risk for someone actually healthy. Unneeded worry, medical examinations, and higher healthcare expenses might all follow from this.
 
-- 🎯 Given these hazards, the project’s main goal is to balance both kinds of mistakes. Thus, the main assessment tool is the F1-score since it harmonically balances recall (avoiding FN) and accuracy (avoiding FP). This strategy guarantees that the model is both sensitive to actual stroke situations and wary about false alerts, therefore offering the most practical value in a healthcare environment.
+🎯 Given these hazards, the project’s main goal is to balance both kinds of mistakes. Thus, the main assessment tool is the F1-score since it harmonically balances recall (avoiding FN) and accuracy (avoiding FP). This strategy guarantees that the model is both sensitive to actual stroke situations and wary about false alerts, therefore offering the most practical value in a healthcare environment.
 
 ## 🔎 2. Data Understanding
 Comprising 12 characteristics—including demographic (age, gender, geography), clinical (blood pressure, BMI, glucose), and lifestyle variables—the dataset holds 10,000 patient records. The target variable shows whether the patient had a stroke (1) or not (0). With stroke cases making up a tiny minority, the dataset is unbalanced. Initial investigation showed that stroke patients are more common in age, hypertension, and average glucose level. Especially in numerical variables like glucose and BMI, some characteristics show skewness and outliers that are handled during preprocessing.
