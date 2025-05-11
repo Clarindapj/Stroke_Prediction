@@ -7,11 +7,11 @@ Stroke Prediction with Machine Learning
 ## 🔎 1. Business Understanding
 Worldwide, stroke ranks among the top causes of death and handicap. Early identification of those at high risk of stroke allows for quick intervention and may save lives. In medical classification tasks like this, both kinds of mistakes have major effects:
 
-### - False Negative (FN): Not recognizing a patient who will really suffer a stroke constitutes a false negative. This is risky since it implies lost chances for preventive care, so causing major health consequences or death.
+- False Negative (FN): Not recognizing a patient who will really suffer a stroke constitutes a false negative. This is risky since it implies lost chances for preventive care, so causing major health consequences or death.
 
-### False Positives (FP): Wrongly forecasting a stroke risk for someone actually healthy. Unneeded worry, medical examinations, and higher healthcare expenses might all follow from this.
+- False Positives (FP): Wrongly forecasting a stroke risk for someone actually healthy. Unneeded worry, medical examinations, and higher healthcare expenses might all follow from this.
 
-### 🎯 Given these hazards, the project’s main goal is to balance both kinds of mistakes. Thus, the main assessment tool is the F1-score since it harmonically balances recall (avoiding FN) and accuracy (avoiding FP). This strategy guarantees that the model is both sensitive to actual stroke situations and wary about false alerts, therefore offering the most practical value in a healthcare environment.
+- 🎯 Given these hazards, the project’s main goal is to balance both kinds of mistakes. Thus, the main assessment tool is the F1-score since it harmonically balances recall (avoiding FN) and accuracy (avoiding FP). This strategy guarantees that the model is both sensitive to actual stroke situations and wary about false alerts, therefore offering the most practical value in a healthcare environment.
 
 ## 🔎 2. Data Understanding
 Comprising 12 characteristics—including demographic (age, gender, geography), clinical (blood pressure, BMI, glucose), and lifestyle variables—the dataset holds 10,000 patient records. The target variable shows whether the patient had a stroke (1) or not (0). With stroke cases making up a tiny minority, the dataset is unbalanced. Initial investigation showed that stroke patients are more common in age, hypertension, and average glucose level. Especially in numerical variables like glucose and BMI, some characteristics show skewness and outliers that are handled during preprocessing.
